@@ -1,0 +1,10 @@
+# .dockerignore
+
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git
+.gitignore
+*.db
+.pytest_cache/
