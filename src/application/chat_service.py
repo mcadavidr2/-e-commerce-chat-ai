@@ -109,9 +109,9 @@ class ChatService:
 
             # 4. Llamada a la IA
             ai_response = await self._ai.generate_response(
-                message=request.message,
-                products=products,
-                context=context,
+            user_message=request.message,
+            products=products,
+            context=context,
             )
 
             now = datetime.utcnow()
